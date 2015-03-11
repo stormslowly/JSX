@@ -1,7 +1,5 @@
 <snippet>
     <content><![CDATA[
-/** @jsx React.DOM */
-var React = require('react');
 
 var ${1:} = React.createClass({
     displayName: '${1:}',
@@ -12,11 +10,10 @@ var ${1:} = React.createClass({
     }
 });
 
-module.exports = ${1:};
 ]]></content>
-    <tabTrigger>React.class</tabTrigger>
+    <tabTrigger>React.createClass</tabTrigger>
     <scope>source.js.jsx</scope>
-    <description>Object Value JS</description>
+    <description>React creaat class</description>
 </snippet>
 
 
