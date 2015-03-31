@@ -12,7 +12,7 @@ var ${1:} = React.createClass({
 
 ]]></content>
     <tabTrigger>React.createClass</tabTrigger>
-    <scope>source.js.jsx</scope>
+    <scope>source.js.jsx,source.js</scope>
     <description>React creaat class</description>
 </snippet>
 

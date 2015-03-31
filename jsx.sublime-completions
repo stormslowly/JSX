@@ -53,7 +53,25 @@
 		{
 			"trigger": "React.render",
 			"contents": "React.render(${1:ReactComponent}, ${2:DOMElement});"
-		},
+		},{
+		    "trigger": "this.state\t this.state",
+		    "contents": "this.state"
+		},{
+		    "trigger": "this.setState\t this.setState",
+		    "contents": "this.setState($1)"
+		},{
+		    "trigger": "this.props\t this.props",
+		    "contents": "this.props"
+		},{
+		    "trigger": "self.state\t this.state",
+		    "contents": "this.state"
+		},{
+		    "trigger": "self.setState\t this.setState",
+		    "contents": "this.setState($1)"
+		},{
+		    "trigger": "self.props\t this.props",
+		    "contents": "this.props"
+		}
 
 	]
 }

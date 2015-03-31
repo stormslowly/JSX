@@ -1581,7 +1581,7 @@
 		</dict>
 	</dict>
 	<key>scopeName</key>
-	<string>source.js</string>
+	<string>source.js.jsx</string>
 	<key>uuid</key>
 	<string>4b3f11ef-3e1f-4311-a911-b7fd497b3ff4</string>
 </dict>
